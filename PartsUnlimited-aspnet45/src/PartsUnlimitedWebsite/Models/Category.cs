@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    // The Category class represents a category of products in the Parts Unlimited application.
     public class Category
     {
         public int CategoryId { get; set; }
