@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        // The CartItemId is the primary key for the CartItem table in the database.
         [Key]
         public int CartItemId { get; set; }
 
