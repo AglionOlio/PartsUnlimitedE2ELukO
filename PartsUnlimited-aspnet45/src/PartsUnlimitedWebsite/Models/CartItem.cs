@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    // The CartItem class represents an item in the shopping cart.
+    // It implements the ILineItem interface, which defines the properties that a line item should have.
     public class CartItem : ILineItem
     {
         // The CartItemId is the primary key for the CartItem table in the database.
